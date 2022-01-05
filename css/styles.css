@@ -51,10 +51,8 @@ justify-content: center;
 }
 
 .navbar-nav li a:hover{
-  color: black;
   transform: scale(120%);
   font-weight: 1000;
-  text-shadow: .25px 0px white;
 }
 
 .container{
@@ -141,7 +139,6 @@ justify-content: center;
     width: 70%;
   }
   .navbar-nav li a:hover{
-    color: red;
     transform: scale(120%);
   }
 
