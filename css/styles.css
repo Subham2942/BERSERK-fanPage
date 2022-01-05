@@ -51,8 +51,7 @@ justify-content: center;
 }
 
 .navbar-nav li a:hover{
-  transform: scale(120%);
-  font-weight: 1000;
+  transform: scale(130%);
 }
 
 .container{
@@ -139,7 +138,7 @@ justify-content: center;
     width: 70%;
   }
   .navbar-nav li a:hover{
-    transform: scale(120%);
+    transform: scale(130%);
   }
 
 }
