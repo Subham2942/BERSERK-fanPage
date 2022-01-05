@@ -16,7 +16,7 @@ li{
 }
 
 .navbar{
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.5);
   font-family: "Nunito";
   position: fixed;
 }
@@ -46,12 +46,15 @@ justify-content: center;
 .navbar-nav li a{
   text-decoration: none;
   color: white;
-  transition: transform 200ms;
+  transition: transform 200ms, text-shadow 100ms;
+  font-weight: 100;
 }
 
 .navbar-nav li a:hover{
   color: black;
   transform: scale(120%);
+  font-weight: 1000;
+  text-shadow: .25px 0px white;
 }
 
 .container{
@@ -131,7 +134,7 @@ justify-content: center;
     margin-top: 0.5%;
   }
   .navbar{
-    font-size: 1.3rem;
+    font-size: 1.3rem; 							
   }
 
   .navbar-nav{
