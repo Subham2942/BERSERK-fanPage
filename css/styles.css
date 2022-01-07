@@ -18,7 +18,7 @@ li{
 .navbar{
   background-color: rgba(0,0,0,0.5);
   font-family: "Nunito";
-  position: fixed;
+  position:fixed;
 }
 
 .navbar,.navbar-nav ul{
